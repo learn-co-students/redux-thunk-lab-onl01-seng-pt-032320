@@ -6,7 +6,6 @@ import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() })
 
-
 describe('<CatList/>', function () {
 
   const catPics = [{id: 1, url: "www.example.com/cat1"}, {id: 2, url: 'www.example.com/cat2'}]
